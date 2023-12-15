@@ -3,7 +3,7 @@ title: Creating a Custom Extension
 ---
 
 ## What is a Custom Extension?
-A custom extension adds a new category and blocks to the toolbox (sidebar).
+A custom extension adds a new category and blocks to the toolbox (sidebar).  
 You create these using [JavaScript](https://en.wikipedia.org/wiki/JavaScript), so you'll need at least a basic understanding of JavaScript to create one.
 
 ## How do I load a Custom Extension?
@@ -11,10 +11,12 @@ Open the "Choose an Extension" menu by clicking the blue blocks button at the bo
 
 Then look at the sidebar until you reach "Actions", and click on "Load Custom Extension".
 
-<img src="img/docimages/load-custom.png" alt="Load Custom Extension"></img>
+<img src="/img/docimages/load-custom.png" alt="Load Custom Extension"></img>
 
-In this menu, you can choose to load an extension from a URL, Local File, or JavaScript text.
+In this menu, you can choose to load an extension from a URL, Local File, or JavaScript text.  
 When creating your extension, you likely want to load from Text and check the box to run the extension without the sandbox, however loading from a local server on port 8000 (http://localhost:8000) will run without it too.
+
+<img src="/img/docimages/load-custom-2.png" alt="Load Custom Extension"></img>
 
 As for what running an extension without a sandbox means,
 
@@ -49,10 +51,10 @@ The Console tab will show errors or warnings coming from the page, or your exten
 You can differentiate errors from your extension and errors from the website by looking at the link next to the error or warning.
 
 - Errors coming from a custom extension loaded from URL
-<img src="img/docimages/error-console-url.png" alt="TODO: type alt by taking image letter by letter"></img>
+<img src="/img/docimages/error-console-url.png" alt="TODO: type alt by taking image letter by letter"></img>
 
 - Errors coming from a custom extension loaded from File or Text
-<img src="img/docimages/error-console-local.png" alt="TODO: type alt by taking image letter by letter"></img>
+<img src="/img/docimages/error-console-local.png" alt="TODO: type alt by taking image letter by letter"></img>
 
 ## Extra Support
 You may have some unexpected errors or problems when developing extensions.
