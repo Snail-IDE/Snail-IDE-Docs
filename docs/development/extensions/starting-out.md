@@ -229,18 +229,18 @@ Blocks have various different shapes and uses, so we need to pick the type of bl
 
 **Here is a table of available block types:**
 
-| |Explanation|Image|Available when sandboxed|
+| |Explanation|Image|Functional when sandboxed|
 |:-:|:-:|:-:|:-:|
 |Scratch.BlockType.COMMAND|A placable code block. Can't be placed inside holes.|<img src="/img/docimages/blocktype_command.png" alt="next costume block"></img>|✅|
 |Scratch.BlockType.REPORTER|A round output block that returns a string, number, etc.|<img src="/img/docimages/blocktype_reporter.png" alt="(answer) block"></img>|✅|
 |Scratch.BlockType.BOOLEAN|A spiky output block that returns true or false.|<img src="/img/docimages/blocktype_boolean.png" alt="<true> block"></img>|✅|
 |Scratch.BlockType.HAT|A block that activates the blocks below once a condition is true. Explained [here.](hats)|<img src="/img/docimages/blocktype_hat.png" alt="when <> block"></img>|✅|
 |Scratch.BlockType.EVENT|An event block that will only run from external causes. Explained [here.](events)|<img src="/img/docimages/blocktype_event.png" alt="when flag clicked block"></img>|❌|
-|Scratch.BlockType.CONDITIONAL|A block that may run blocks inside based on a condition. Explained [here.](branches)|<img src="/img/docimages/blocktype_conditional.png" alt="if <> then block"></img>|❓|
+|Scratch.BlockType.CONDITIONAL|A block that may run blocks inside based on a condition. Explained [here.](branches)|<img src="/img/docimages/blocktype_conditional.png" alt="if <> then block"></img>|✅|
 |Scratch.BlockType.LOOP|A block that may run blocks inside multiple times. Explained [here.](branches)|<img src="/img/docimages/blocktype_loop.png" alt="repeat () block"></img>|❓|
 |Scratch.BlockType.LABEL|Not used for real blocks. A text label in the category. Explained [here.](labels)|<img src="/img/docimages/blocktype_label.png" alt="category label"></img>|✅|
-|Scratch.BlockType.BUTTON|Not used for real blocks. A clickable button in the category. Explained [here.](buttons)|<img src="/img/docimages/blocktype_button.png" alt="category button"></img>|❓|
-|Scratch.BlockType.XML|Not used for real blocks. Injects XML to the category. Explained [here.](xml-blocks)|No visuals for this block type|❓|
+|Scratch.BlockType.BUTTON|Not used for real blocks. A clickable button in the category. Explained [here.](buttons)|<img src="/img/docimages/blocktype_button.png" alt="category button"></img>|✅|
+|Scratch.BlockType.XML|Not used for real blocks. Injects XML to the category. Explained [here.](xml-blocks)|No visuals for this block type|✅|
 
 For now, we will only need the `Scratch.BlockType.COMMAND` block type.
 

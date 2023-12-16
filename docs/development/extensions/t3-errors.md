@@ -3,7 +3,7 @@ title: Errors
 ---
 
 ## The inevitable
-When working on an extension, eventually one of your blocks will break and cause an error.
+When working on an extension, eventually one of your blocks will break and cause an error.  
 This can appear in one of 3 ways:
 
 ### Unsandboxed Extension block errors
@@ -14,7 +14,7 @@ The error will also appear in the console.
 <img src="/img/docimages/errors-unsandboxed.png" alt="Red glow block with reported error"></img>
 
 ### Sandboxed Extension block errors
-Sandboxed extensions will return the error as the output if it is a `BOOLEAN` or `REPORTER` block type.
+Sandboxed extensions will return the error as the output if it is a `BOOLEAN` or `REPORTER` block type.  
 Otherwise, the error will just appear in the console. This may lead to unintended behavior if a certain value or operation was expected.
 
 <img src="/img/docimages/errors-sandboxed.png" alt="Regular block with error output"></img>
