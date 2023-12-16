@@ -84,6 +84,25 @@ This is used a lot less, but we can use this parameter to place the block into "
 
 <img src="/img/docimages/allowDropAnywhere.png" alt="Reporter inside a boolean hole"></img>
 
+### blockShape
+
+This changes the shape of a reporter, such as making a boolean look... not... like a boolean?
+
+```js
+{
+  opcode: 'testReporter',
+  text: 'testing!',
+  blockType: Scratch.BlockType.REPORTER,
+  blockShape: Scratch.BlockShape.SQUARE,
+}
+```
+
+| |Explanation|Image|
+|:-:|:-:|:-:|
+|Scratch.BlockShape.ROUND|The default shape for a reporter.|<img src="/img/docimages/blockshape_round.png" alt="round block"></img>|
+|Scratch.BlockShape.HEXAGONAL|The default shape for a boolean. Takes up more space then other shapes.|<img src="/img/docimages/blockshape_hexagonal.png" alt="hexagonal block"></img>|
+|Scratch.BlockShape.SQUARE|The only shape to not be found normally!|<img src="/img/docimages/blockshape_square.png" alt="square block"></img>|
+
 ## Final code
 
 **first-reporter.js** - [View source](/extensions/first-reporter.js)
