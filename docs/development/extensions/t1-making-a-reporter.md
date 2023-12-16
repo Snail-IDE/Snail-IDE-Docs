@@ -48,7 +48,9 @@ Loading this into PenguinMod, you should see the following:
 
 **This works!** *But why is there a checkbox?*
 
-## disableMonitor
+## Reporter-specific parameters
+
+### disableMonitor
 
 We can add the `disableMonitor` property to our block to remove the variable monitor option in the category.
 
@@ -64,3 +66,63 @@ We can add the `disableMonitor` property to our block to remove the variable mon
 ```
 
 <img src="/img/docimages/making-reporter-2.png" alt="Reporter in the toolbox again"></img>
+
+This isn't the only specific parameter we can add here:
+
+### allowDropAnywhere
+
+This is used a lot less, but we can use this parameter to place the block into "unexpected areas":
+
+```js
+{
+  opcode: 'testReporter',
+  text: 'testing!',
+  blockType: Scratch.BlockType.REPORTER,
+  allowDropAnywhere: true
+}
+```
+
+<img src="/img/docimages/allowDropAnywhere.png" alt="Reporter inside a boolean hole"></img>
+
+## Final code
+
+**first-reporter.js** - [View source](/extensions/first-reporter.js)
+```js
+(function(Scratch) {
+  'use strict';
+  class Extension {
+    getInfo() {
+      return {
+        id: "johnMyExtension",
+        name: "My Extension",
+        blocks: [
+          {
+            opcode: 'logToConsole',
+            text: 'log to console',
+            blockType: Scratch.BlockType.COMMAND
+          },
+          {
+            opcode: 'testReporter',
+            text: 'testing!',
+            blockType: Scratch.BlockType.REPORTER,
+            disableMonitor: true,
+	    allowDropAnywhere: true
+          }
+        ]
+      };
+    }
+
+    logToConsole() {
+      console.log('Hello world!');
+    }
+    testReporter() {
+      return "Hello world!";
+    }
+  }
+
+  Scratch.extensions.register(new Extension());
+})(Scratch);
+```
+
+## Next steps
+Why don't we [create a real boolean next?](t2-booleans)

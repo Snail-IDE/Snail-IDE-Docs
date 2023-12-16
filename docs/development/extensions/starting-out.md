@@ -122,6 +122,8 @@ Most extensions only use `color1` and `color2`, but you can use `color3` too or 
 2. `color2` decides a secondary and "shadow" color for rounded menus
 3. `color3` decides an outline color
 
+<img src="/img/docimages/color-visual.png" alt="Image of previous explanation of color properties"></img>
+
 Add it like so:
 
 ```js
@@ -232,7 +234,7 @@ Blocks have various different shapes and uses, so we need to pick the type of bl
 |Scratch.BlockType.COMMAND|A placable code block. Can't be placed inside holes.|<img src="/img/docimages/blocktype_command.png" alt="next costume block"></img>|✅|
 |Scratch.BlockType.REPORTER|A round output block that returns a string, number, etc.|<img src="/img/docimages/blocktype_reporter.png" alt="(answer) block"></img>|✅|
 |Scratch.BlockType.BOOLEAN|A spiky output block that returns true or false.|<img src="/img/docimages/blocktype_boolean.png" alt="<true> block"></img>|✅|
-|Scratch.BlockType.HAT|A block that activates the blocks below once a condition is true. Explained [here.](hats)|<img src="/img/docimages/blocktype_hat.png" alt="when <> block"></img>|❌|
+|Scratch.BlockType.HAT|A block that activates the blocks below once a condition is true. Explained [here.](hats)|<img src="/img/docimages/blocktype_hat.png" alt="when <> block"></img>|✅|
 |Scratch.BlockType.EVENT|An event block that will only run from external causes. Explained [here.](events)|<img src="/img/docimages/blocktype_event.png" alt="when flag clicked block"></img>|❌|
 |Scratch.BlockType.CONDITIONAL|A block that may run blocks inside based on a condition. Explained [here.](branches)|<img src="/img/docimages/blocktype_conditional.png" alt="if <> then block"></img>|❓|
 |Scratch.BlockType.LOOP|A block that may run blocks inside multiple times. Explained [here.](branches)|<img src="/img/docimages/blocktype_loop.png" alt="repeat () block"></img>|❓|
