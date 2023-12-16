@@ -65,6 +65,16 @@ const config = {
         },
         items: [
           {
+            href: '/development/extensions/introduction',
+            label: 'Custom Extensions',
+            position: 'left'
+          },
+          {
+            href: 'https://penguinmod.com/',
+            label: 'PenguinMod',
+            position: 'right'
+          },
+          {
             href: 'https://github.com/PenguinMod/',
             label: 'GitHub',
             position: 'right',
