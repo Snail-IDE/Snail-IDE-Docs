@@ -70,6 +70,11 @@ const config = {
             position: 'left'
           },
           {
+            href: '/save-format/core-concepts',
+            label: 'File Save Format',
+            position: 'left'
+          },
+          {
             href: 'https://penguinmod.com/',
             label: 'PenguinMod',
             position: 'right'
