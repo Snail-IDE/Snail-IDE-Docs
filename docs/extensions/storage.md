@@ -24,7 +24,7 @@ Users can manually edit this data, so be aware of potential tampering.
 :::
 
 This is the same as Local Storage, but the keys will not share between uploaded projects.
-The project must be uploaded to PenguinMod for this to be useful.
+The project must be uploaded to Snail IDE for this to be useful.
 
 <img src="/img/docimages/local_uploaded_storage_list.png" alt="Local Uploaded Storage blocks" width="192"></img>
 
