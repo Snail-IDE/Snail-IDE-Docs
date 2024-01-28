@@ -42,7 +42,7 @@ class Extension {
 }
 ```
 
-Loading this into PenguinMod, you should see the following:
+Loading this into Snail IDE, you should see the following:
 
 <img src="/img/docimages/making-reporter-1.png" alt="Reporter in the toolbox"></img>
 
