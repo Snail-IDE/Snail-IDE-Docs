@@ -38,8 +38,8 @@ This can be done as follows:
 })(Scratch);
 ```
 
-We still have 2 more things to add on before we can load this into PenguinMod.  
-Let's add the code to register this into PenguinMod, so we don't forget later.
+We still have 1 more thing to add on before we can load this into Snail IDE.  
+Let's add the code to register this into Snail IDE, so we don't forget later.
 
 ```js
 (function(Scratch) {
@@ -53,17 +53,6 @@ Let's add the code to register this into PenguinMod, so we don't forget later.
 
 This is our first use of the `Scratch` object.  
 The `extensions` property of the `Scratch` object gives us some small information, and the ability to register our extension.
-
-There are a few more things that the `Scratch.extensions` object has:
-```js
-{
-    "unsandboxed": (boolean),
-    "isPenguinMod": (boolean)
-}
-```
-
-- `unsandboxed` will be true if the extension is run unsandboxed.
-- `isPenguinMod` will be true if loaded into the PenguinMod editor, or if it's in a packaged project.
 
 ## Defining our extension contents
 Now that we have our basic stuff set down, let's define some properties about our extension.
@@ -139,6 +128,8 @@ getInfo() {
 ```
 
 ### docsURI
+| :exclamation:  Docs URIs are currently not usable on Snail IDE for unknown reasons   |
+|-----------------------------------------|
 This is usually not included in most extensions, but you can link to another web page that explains your extension.
 
 This will add a button to the top of the extension's category that links to the page.
