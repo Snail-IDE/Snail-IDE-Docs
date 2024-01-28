@@ -10,7 +10,7 @@ title: ChatGPT
 
 ## API Note
 APIs go up and down every once in a while, so if you get error responses, you should be able to find more reverse proxies here on the internet.
-The API used in LOLEMO's version is dead, so I've updated it to use https://api.tmrace.net/v1/chat/completions by default, although you can update it using the "Set Reverse Proxy API URL" block.
+The API used in LOLEMO's version is dead, so I've updated it to use https://reverse.mubi.tech/v1/chat/completions by default, although you can update it using the "Set Reverse Proxy API URL" block.
 
 Ratelimits are inevitable however, you can get around them with a VPN/Proxy or just waiting a few hours.
 
@@ -20,45 +20,46 @@ To use this extension in Snail IDE go to the extension menu and add the PenguinG
 ## How to use
 If you find that using the extension only reports errors, use this block to update the API URL. (You can find ChatGPT reverse proxies by looking them up)
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_2_2023-4_59_51 PM.svg" width="100%" height="70"/>
+![Set Reverse Proxy API URL](https://snail-ide.js.org/SnailGPT/img/block_10_2_2023-4_59_51 PM.svg)
 
 Additionally, You can use this reporter to check if the API you are using is alive. 
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_28_51 PM.svg" width="100%" height="70"/>
+![Check API](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_28_51 PM.svg)
 
 To simply send a prompt to ChatGPT without any context (chat history), use this reporter:
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_28_56%20PM.svg" width="100%" height="70"/>
-
+![Send Prompt](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_28_56 PM.svg)
 
 If you want to use prompts with history (GPT remembers previous messages) you will have to create a chatbot! you can use these blocks to manage (create, delete, and reset) chatbots.
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_19 PM.svg" width="100%" height="200"/>
+![Manage Chatbots](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_19 PM.svg)
 
 Also, you can use this block to change the behavior of the chatbot:
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_02 PM.svg" width="100%" height="70"/>
+![Change Chatbot Behavior](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_02 PM.svg)
 
 Then, use this reporter to interact with the one you have created:
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_39_30 PM.svg" width="100%" height="71"/>
+![Interact with Chatbot](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_39_30 PM.svg)
 
-If you want to get a predefiend jailbreak or prompt. You can use this block:
+If you want to get a predefined jailbreak or prompt, you can use this block:
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_11_19_2023-3_14_26%20PM.svg" width="100%" height="71"/>
+![Get Predefined Prompt](https://snail-ide.js.org/SnailGPT/img/block_11_19_2023-3_14_26 PM.svg)
 
-Now, if you want to export chat(s), use these blocks to export those:
+Now, if you want to export chats, use these blocks:
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_37 PM.svg" width="100%" height="50"/>
-<img src="https://snail-ide.js.org/SnailGPT/img/block_11_19_2023-3_17_42%20PM.svg" width="100%" height="50"/>
+![Export Chats](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_37 PM.svg)
 
-If you want to import chat(s), use these blocks to import chat(s):
+![Export Chats 2](https://snail-ide.js.org/SnailGPT/img/block_11_19_2023-3_17_42 PM.svg)
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_40 PM.svg" width="100%" height="120"/>
+If you want to import chats, use these blocks:
+
+![Import Chats](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_40 PM.svg)
 
 If you want to get all active chats as an array, use this block:
 
-<img src="https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_43 PM.svg" width="100%" height="50"/>
-  
+![Get Active Chats](https://snail-ide.js.org/SnailGPT/img/block_10_14_2023-4_29_43 PM.svg)
+
 You can even generate images with PenguinGPT!
-<img src="/img/docimages/block_1_27_2024-10_42_18 PM.svg" width="100%" height="50">
+
+![Generate Images](/img/docimages/block_1_27_2024-10_42_18 PM.svg)
