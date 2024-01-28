@@ -50,4 +50,4 @@ We can use `disableMonitor` again to remove the checkbox:
 <img src="/img/docimages/booleans-2.png" alt="Our boolean in the toolbox, with no monitor in sight"></img>
 
 ## Next steps
-How about we [learn how PenguinMod handles block errors?](t3-errors)
+How about we [learn how Snail IDE handles block errors?](t3-errors)
