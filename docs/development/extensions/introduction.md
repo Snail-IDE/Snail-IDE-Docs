@@ -9,7 +9,7 @@ You create these using [JavaScript](https://en.wikipedia.org/wiki/JavaScript), s
 ## How do I load a Custom Extension?
 Scroll to the bottom of the extensions menu and click "Custom Extension".
 
-Currently the only way to test extensions without hosting them on a production server, is opening a local host with your JS code inside of it loading the URL. When loaded from http://localhost:8000/, extensions are automatically ran unsandboxed.
+Currently the only way to test extensions without hosting them on a production server, is opening a local host with your JS code inside of it loading the URL. When loaded from http://localhost:8000/, extensions are automatically ran unsandboxed. Click [here](./opening-server) to learn how to do that.
   
 ![ext](https://github.com/Snail-IDE/Snail-IDE-Docs/assets/130254323/dc4b0e01-8d4f-44c5-adc8-37ac789287ce)
 
