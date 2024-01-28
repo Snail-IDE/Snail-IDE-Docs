@@ -1,7 +1,7 @@
 ---
 title: Creating a Custom Extension
 ---
-| :zap:        It may be helpful to use the [Snail IDE Logger](/development/logger/logger)   |
+| :zap:        It may be helpful to use the [Snail IDE Logger](/development/logger/)   |
 |-----------------------------------------|
 ## What is a Custom Extension?
 A custom extension adds a new category and blocks to the toolbox (sidebar).  
