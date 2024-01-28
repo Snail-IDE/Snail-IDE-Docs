@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Snail IDE Docs',
   // tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://www.snail-ide.com/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://snail-ide-docs.vercel.app',
