@@ -7,7 +7,7 @@ When working on an extension, eventually one of your blocks will break and cause
 This can appear in one of 3 ways:
 
 ### Unsandboxed Extension block errors
-PenguinMod will glow your block red and show a red message box below the block if an error occurs.
+Snail IDE will glow your block red and show a red message box below the block if an error occurs.
 
 The error will also appear in the console.
 
