@@ -7,16 +7,11 @@ A custom extension adds a new category and blocks to the toolbox (sidebar).
 You create these using [JavaScript](https://en.wikipedia.org/wiki/JavaScript), so you'll need at least a basic understanding of JavaScript to create one.
 
 ## How do I load a Custom Extension?
-Open the "Choose an Extension" menu by clicking the blue blocks button at the bottom-left of the editor.
+Scroll to the bottom of the extensions menu and click "Custom Extension".
 
-Then look at the sidebar until you reach "Actions", and click on "Load Custom Extension".
-
-<img src="/img/docimages/load-custom.png" alt="Load Custom Extension"></img>
-
-In this menu, you can choose to load an extension from a URL, Local File, or JavaScript text.  
-When creating your extension, you likely want to load from Text and check the box to run the extension without the sandbox, however loading from a local server on port 8000 (http://localhost:8000) will run without it too.
-
-<img src="/img/docimages/load-custom-2.png" alt="Load Custom Extension"></img>
+Currently the only way to test extensions without hosting them on a production server, is opening a local host with your JS code inside of it loading the URL. When loaded from http://localhost:8000/, extensions are automatically ran unsandboxed.
+  
+![ext](https://github.com/Snail-IDE/Snail-IDE-Docs/assets/130254323/dc4b0e01-8d4f-44c5-adc8-37ac789287ce)
 
 As for what running an extension without a sandbox means,
 
@@ -34,7 +29,7 @@ There are some key differences that may give you a reason to not use the sandbox
 Generally its faster & more compatible to load extensions unsandboxed, though you can't load non-trusted URLs into the editor unsandboxed for security.
 
 ## Project Uploading
-You can't upload a PenguinMod project with a custom extension without ranking up to "Penguin" rank.  
+You can't upload a Snail IDE project with a custom extension unless you have ranked up.  
 If you want to upload a project with your extension, you'll need to upload some other projects & wait a couple days since you first signed in before you can rank up.
 
 ## Recommendations
@@ -61,7 +56,7 @@ You can differentiate errors from your extension and errors from the website by 
 
 ## Extra Support
 You may have some unexpected errors or problems when developing extensions.  
-If you need any extra help, feel free to [join our Discord](https://discord.gg/NZ9MBMYTZh) to ask any questions.
+If you need any extra help, feel free to [message Mr_rudy on scratch](https://scratch.mit.edu/users/Mr_rudy) to ask any questions.
 
 ## First Steps
 Let's begin by [creating a basic extension.](/development/extensions/starting-out)
