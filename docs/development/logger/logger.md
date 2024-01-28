@@ -1,9 +1,10 @@
 ---
 title: The Snail IDE Logger
 ---
+:::warning
+This is an Alpha feature, as it does not support many vm actions yet
+:::
 
-| :warning:        This is an Alpha feature, as it does not support many vm actions yet   |
-|-----------------------------------------|
 
 # What is the Snail IDE Logger?
 The Snail IDE logger is things being printed into the command line when certain actions happen, they are distinguishable from other warnings and logs because they start with Snail IDE VM Logger:
