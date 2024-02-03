@@ -3,8 +3,6 @@ title: Documentation
 ---
 
 <img src="https://www.snail-ide.com/navicon.png" alt="Snail IDE"></img>
-  
-*sorry about the low quality image*
 
 # What is Snail IDE?
 
